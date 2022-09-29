@@ -4,7 +4,7 @@ let guestList = ["Sameer", "Bilal", "Shumail"];
 let names = guestList.pop();
 guestList.push("Arham");
 guestList.splice(0, 0, "Umar");
-guestList.splice(2, 0, "Safeer");
+guestList.splice(3, 0, "Safeer");
 guestList.push("Aqsa");
 for (let i = 0; i < guestList.length; i++) {
   let inviteMsg =
